@@ -142,7 +142,7 @@ void handleNewMessages(int numNewMessages) {
   display.setCursor(0,0);
   display.print("Temperature: ");
   display.setTextSize(2);
-  display.setCursor(0,10);
+  display.setCursor(0,5);
   display.print(t);
    display.print(" ");
   display.setTextSize(1);
@@ -159,7 +159,7 @@ void handleNewMessages(int numNewMessages) {
   display.setCursor(0, 15);
   display.print("Humidity: ");
   display.setTextSize(2);
-  display.setCursor(0, 30);
+  display.setCursor(0, 25);
   display.print(h);
   display.print(" %"); 
 
@@ -167,37 +167,37 @@ void handleNewMessages(int numNewMessages) {
   }
   if (text == "/LIGHT1ON"){
     display.setTextSize(1);
-    display.setCursor(0,45);
+    display.setCursor(0,35);
     display.print("LIGHT1ON: ");
      display.setTextSize(2);
-    display.setCursor(0,50);
+    display.setCursor(0,45);
     display.print("Relay1state");
     display.print("ON") ;
   }
   if (text == "/LIGHT1OFF"){
     display.setTextSize(1);
-    display.setCursor(0,64);
+    display.setCursor(0,50);
     display.print("LIGHT1OFF: ");
      display.setTextSize(2);
-    display.setCursor(0,80);
+    display.setCursor(0,60);
     display.print("Relay1state");
     display.print("OFF");
   }
   if (text == "/LIGHT2ON"){
     display.setTextSize(1);
-    display.setCursor(0,90);
+    display.setCursor(0,70);
     display.print("LIGHT2ON: ");
      display.setTextSize(2);
-    display.setCursor(0,108);
+    display.setCursor(0,80);
     display.print("Relay2state");
     display.print("ON");
   }
 if (text == "/LIGHT2OFF"){
     display.setTextSize(1);
-    display.setCursor(0,128);
+    display.setCursor(0,90);
     display.print("LIGHT2OFF: ");
      display.setTextSize(2);
-    display.setCursor(0,152);
+    display.setCursor(0,100);
     display.print("Relay2state");
     display.print("OFF");
 }  
