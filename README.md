@@ -1,2 +1,2 @@
-# intership
+# internship 
 intrship at bitmask
